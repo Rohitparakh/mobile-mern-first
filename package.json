@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "react":"cd Rohit-App && expo start",
-    "dev":"concurrently -n'server,react' -c'red,green' \"nodemon server.js\" \"npm run react\""
+    "react": "cd Rohit-App && expo start",
+    "dev": "concurrently -n'server,react' -c'red,green' \"nodemon server.js\" \"npm run react\""
   },
   "keywords": [],
   "author": "",
