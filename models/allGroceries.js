@@ -7,7 +7,8 @@ const allGroceriesSchema=new Schema({
     title: String,
     imgSrc: String,
     price:Number,
-    mrp:Number
+    mrp:Number,
+    offer:Boolean
 })
 
 // Model
